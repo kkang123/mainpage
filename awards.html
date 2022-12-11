@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="..\css\awards.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+    <title>수상내역</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">kkang123</a></h1>
+        <form>
+            <button><a href="awards.html">수상내역</a></button>
+            <button><a href="career.html">경력사항</a></button>
+            <button><a href="/">Menu1</a></button>
+        </form>
+    </header>
+
+    <div class="home">
+        <ul class="post-list">
+            <li>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                
+            </label>
+            <p id="t1">제 15회 제주 SW 융합 해커톤 in Jeju Coding Basecamp</p>
+            
+            <figure class="item-photo">
+                <img id="img1" src="..\css\188263374-609dea93-41b8-40d1-b496-6c9dfa6741ef.gif" alt="">
+                <img id="img2" src="..\css\hacker.jpg" alt="">
+            </figure>
+            <div id="maintext">
+                <p>
+                    느낌점 : 이 해커톤은 규모가 작은 대회였지만 제가 이 대회에 참가한 이유는 같이 코딩 공부하는 사람들과 함께하면서 다른 사람들은 어떻게 난관을 헤쳐나가고 어떤 방식으로 접근하여서 해결하고 어떤 식으로 팀원들과 소통하는지가 궁금하여서 용기내어 참가하게 된 첫 해커톤이였습니다. 그동안 학교에서 짜여진 과제만 해오던 저는 프론트엔드부분을 처음 맡았기에 프론트 팀원과 함께 해당 사이트 구성을 기획하였고 그 후 따로 카카오 api를 이용하여 로그인과 카카오맵 지도부분을 추가하였습니다. 그 후 백엔드부분에 팀원이 힘들어하여 백엔드부분까지 손을 뻗어 데이터베이스 구축하는데 도움을 주고 지도에 마커표시하는 역할을 수행하였습니다.
+                    그렇게 대회가 마치고 같이 했던 팀원들 덕분에 많은 것을 배웠던 기억이 인상이 깊어 아직도 생각이 많이 나는 대회였습니다.
+                </p>
+            </div>
+              
+              
+            </li>
+        </ul>
+        
+    </div>
+    <script>
+    var check = $("input[type='checkbox']");
+        check.click(function(){
+            $(".item-photo").toggle();
+        });</script>
+   </body>
+</html>
