@@ -1,4 +1,5 @@
 var check = $("input[type='checkbox']");
         check.click(function(){
-            $(".item-photo").toggle();
+//             $(".item-photo").toggle();
+                 $("#img1").toggle();
         });
