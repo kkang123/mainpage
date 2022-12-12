@@ -83,16 +83,12 @@ header {
   
   body {
     background: #EEE;
-    padding-top: 75px;
   }
   
   body, html {
     height: 100%;
   }
   
-  * {
-    box-sizing: border-box; /* header 박스 사이즈 */
-  }
 
   button{
     -webkit-appearance: none;
