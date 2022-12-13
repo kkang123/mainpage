@@ -183,3 +183,19 @@ header {
   color: #6e6e6e;
   background-color: #fce205;
   }
+
+
+  #btn_toggle{
+    font-size:14px;
+    padding:10px 15px;
+    border:1px solid #ddd;
+    background-color:#0a76b7;
+    border-radius:5px;
+    color:#fff;
+    font-weight:bold;
+    margin-top: 15px;
+  }
+  #Toggle{
+    font-size:14px;
+    color: #666;
+  }
