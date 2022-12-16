@@ -148,16 +148,19 @@ header {
 }
 
 .container{
-      padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  
 }
 
+.row{
+
+}
+.h2row, .before-title{
+  padding-left: 20px;
+}
 .row-under {
   display: flex;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .col-1{
@@ -175,4 +178,76 @@ header {
     padding-right: 15px;
     padding-left: 15px;
     border: solid white 1px;
+}
+
+.text-row-1-1, .text-row-1-2, .text-row-2-1, .text-row-2-2 {
+  padding-left: 5px;
+}
+
+
+/* footer */
+
+/* #wrapper{
+  height : 100%;
+} */
+
+
+footer {
+  width: 100%;
+  /* position: absolute;  */
+  background-color: black;
+  border-top: 1px solid #333;
+  position : fixed;
+bottom : 0;
+  /* position : relative;
+  transform : translateY(-100%); */
+
+  
+}
+
+footer .inner {
+  padding: 65px 0 65px 0;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+
+footer .menu li {
+  position: relative;
+}
+
+footer .menu li::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  margin: auto;
+}
+
+footer .menu li:last-child::before {
+  display: none;
+}
+
+footer .menu li a {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+  display: block;
+}
+
+footer .copyright {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+footer .logo {
+  margin: 30px auto 0;
 }
