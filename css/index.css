@@ -28,7 +28,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	 background: gray;
+	 color: #0b0404;
+    	 font-family: "EB Garamond",Garamond,"Times New Roman",serif;
+    	 font-size: 1.3125em;
+    	 line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -131,14 +135,6 @@ header {
 
 
 
-
-  body {
-    background: gray;
-    color: #0b0404;
-    font-family: "EB Garamond",Garamond,"Times New Roman",serif;
-    font-size: 1.3125em;
-    line-height: 1.5;
-}
 
 .site-masthead {
   box-sizing: border-box;
