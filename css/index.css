@@ -139,4 +139,37 @@ header {
   position: relative;
   text-align: center;
   color: white;
+  padding-top: 3rem;
+}
+
+.about{
+  padding-top: 7.75rem;
+  padding-bottom: 5.25rem;
+}
+
+.container{
+  
+}
+
+.row-under {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-1{
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: solid white 1px;
+}
+
+
+.col-2 {
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: solid white 1px;
 }
