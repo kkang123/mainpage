@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background: gray;
+
 }
 ol, ul {
 	list-style: none;
@@ -143,6 +145,7 @@ header {
 
   #t1{
     font-size: 2rem;
+    color: white;
   }
 
 
@@ -161,6 +164,8 @@ header {
     margin-top: 2rem;
    
     margin-right: 2rem;
+    color: white;
+    font-size: 1.5vw;
   }
 
 
