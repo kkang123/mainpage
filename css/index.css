@@ -27,6 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	 background: gray;
 	 color: #0b0404;
@@ -137,4 +138,5 @@ header {
   box-sizing: border-box;
   position: relative;
   text-align: center;
+  color: white;
 }
