@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/career.css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
     <title>Document</title>
 </head>
@@ -24,27 +25,17 @@
     
     
     <div id="nav">
-        <h2 style="background-color:lightgrey; color:white; text-align:center">Nav 영역</h2>
+        <button id="btn_toggle">수료증보기</button>
+            <div id="nav-main">
+            <div id="Toggle" style="display:none">
+                <img id="img1" src="css\tnfy.jpg" alt="수료증">
+            </div>
+            <div id="img-text">8월 16일부터 8월 26일까지 시행하는 코딩 교육에서 html, css, js, djago등을 배웠습니다. 
+            </div>
+            </div>
     </div>
     
-    <div id="section" style="text-align: center;">
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-        <span style="background-color:lightgrey; color:white; text-align:center">Section 영역</span>
-    </div><br>
-    
-    <iframe src="user.html" style="width:100%; height:600px; border: 3px dashed maroon"></iframe>
-    
-    <div id="footer">
-        <h2>Footer 영역 : Banner</h2>
-    </div>
 
-
+    <script src="./js/toggle.js"></script>
 </body>
 </html>
